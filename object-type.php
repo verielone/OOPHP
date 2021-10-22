@@ -39,3 +39,6 @@ echo "<br>";
 
 $infoProduk1 = new CetakInfoProduk();
 echo $infoProduk1->cetak($produk1);
+echo "<br>";
+$infoProduk2 = new CetakInfoProduk();
+echo $infoProduk2->cetak($produk2);
